@@ -8,7 +8,7 @@
   -  Run following command to install cakephp libraries using composer
     >  composer install
 
-  - now set write permissions to /tmp dir.
+  - now create 'tmp' directory in project root folder and set write permissions to 'tmp' directory
 
   -  run following command in project roor dir to create role and users table from schema file
     >  Console/cake schema update 
