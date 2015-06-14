@@ -8,12 +8,14 @@
   -  Run following command to install cakephp libraries using composer
     >  composer install
 
+  - now set write permissions to /tmp dir.
+
   -  run following command in project roor dir to create role and users table from schema file
     >  Console/cake schema update 
     
     This will create roles and users table
     
-  -  now set write permissions to /tmp dir.   
+  
   -  change values for Security.salt and Security.cipherSeed in Config/core.php (not mandatory)
    
   -  Now, application setup is done. We have to create user to login in to system.Use following commands to create user
