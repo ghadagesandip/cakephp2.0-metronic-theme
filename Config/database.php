@@ -7,8 +7,8 @@ class DATABASE_CONFIG {
         'host' => 'localhost',
         'port' => '',
         'login' => 'root',
-        'password' => 'webwerks',
-        'database' => 'visitors',
+        'password' => '',
+        'database' => '',
         'schema' => '',
         'prefix' => '',
         'encoding' => 'utf8'
