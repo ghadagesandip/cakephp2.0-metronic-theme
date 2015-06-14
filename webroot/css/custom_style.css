@@ -1,0 +1,10 @@
+.form-horizontal .control-label-view{
+    padding-top: 0px !important;
+}
+
+.control-label-view {
+    margin-top: 0px !important;
+}
+.alert .close{
+    top:5px !important;
+}

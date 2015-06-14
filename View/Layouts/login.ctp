@@ -26,6 +26,7 @@
         '../assets/plugins/font-awesome/css/font-awesome.min','../assets/css/style-metro','../assets/css/style','../assets/css/style',
         '../assets/css/style-responsive','../assets/css/themes/default','../assets/plugins/uniform/css/uniform.default'
     ));
+    echo $this->Html->css('custom_style.css');
     ?>
     <!-- END GLOBAL MANDATORY STYLES -->
     <!-- BEGIN PAGE LEVEL STYLES -->
@@ -65,7 +66,7 @@
 <?php echo $this->Html->script(array('../assets/plugins/jquery-validation/dist/jquery.validate.min'));?>
 <!-- END PAGE LEVEL PLUGINS -->
 <!-- BEGIN PAGE LEVEL SCRIPTS -->
-<?php echo $this->Html->script(array('../assets/scripts/app','../assets/scripts/login'));?>
+<?php echo $this->Html->script(array('../assets/scripts/app','../assets/scripts/login','custom'));?>
 <!-- END PAGE LEVEL SCRIPTS -->
 <script>
     jQuery(document).ready(function() {
